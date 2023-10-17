@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kazemo</title>
+    <link rel="stylesheet", href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <div class="kazemotts_header">
+            <h3 class="kazemotts">Kazakh Emotional Text To Speech Demo Page</h3>
+        </div>
+        <div class="demo_audios">
+            <h1>Kazakh Ground Truth</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Emotion|Speaker</th>
+                        <th>M1 GT</th>
+                        <th>M1 synthesized</th>
+                        <th>M2 GT</th>
+                        <th>M2 synthesized</th>
+                        <th>F1 GT</th>
+                        <th>F1 synthesized</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="Angry">
+                        <td>Angry</td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035/1263201035_angry_10372.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/1263201035/1263201035_angry_10372.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/399172782/399172782_angry_70615.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/399172782/399172782_angry_70615.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882/805570882_angry_75029.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/805570882/805570882_angry_75029.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fear</td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035/1263201035_fear_32492.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/1263201035/1263201035_fear_32492.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/399172782/399172782_fear_19666.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/399172782/399172782_fear_19666.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882/805570882_fear_14667.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/805570882/805570882_fear_14667.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Happy</td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035/1263201035_happy_4064.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/1263201035/1263201035_happy_4064.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/399172782/399172782_happy_25459.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/399172782/399172782_happy_25459.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882/805570882_happy_24219.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/805570882/805570882_happy_24219.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Neutral</td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035/1263201035_neutral_51275.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/1263201035/1263201035_neutral_51275.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/399172782/399172782_neutral_54561.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/399172782/399172782_neutral_54561.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882/805570882_neutral_38130.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/805570882/805570882_neutral_38130.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sad</td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035/1263201035_sad_53370.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/1263201035/1263201035_sad_53370.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/399172782/399172782_sad_61948.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/399172782/399172782_sad_61948.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882/805570882_sad_46960.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/805570882/805570882_sad_46960.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Surprise</td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035/1263201035_surprise_75990.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/1263201035/1263201035_surprise_75990.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/399172782/399172782_surprise_69860.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/399172782/399172782_surprise_69860.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882/805570882_surprise_73987.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./Synth/805570882/805570882_surprise_73987.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
